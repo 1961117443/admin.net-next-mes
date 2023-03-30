@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.NET.MES", "Admin.NET.MES\Admin.NET.MES.csproj", "{77D9F91D-BEDA-4E3E-B335-8D45D8996701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,9 +40,16 @@ Global
 		{11EA630B-4600-4236-A117-CE6C6CD67586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EA630B-4600-4236-A117-CE6C6CD67586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EA630B-4600-4236-A117-CE6C6CD67586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D9F91D-BEDA-4E3E-B335-8D45D8996701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D9F91D-BEDA-4E3E-B335-8D45D8996701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D9F91D-BEDA-4E3E-B335-8D45D8996701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D9F91D-BEDA-4E3E-B335-8D45D8996701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77D9F91D-BEDA-4E3E-B335-8D45D8996701} = {662E0B8E-F23E-4C7D-80BD-CAA5707503CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CD801D7-984A-4F5C-8FA2-211B7A5EA9F3}
